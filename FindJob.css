@@ -1,0 +1,8 @@
+.find-job-container {
+    padding: 170px;
+    background: linear-gradient(to left, rgba(245, 245, 245, 0.8), rgba(200, 214, 229, 0.8), rgba(245, 245, 245, 0.8), rgba(240, 236, 226, 0.8));
+}
+
+.find-job-container h2 {
+    color: rgba(7, 49, 91, 0.8); 
+}

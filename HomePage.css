@@ -1,0 +1,86 @@
+.home-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to left, rgba(245, 245, 245, 0.8), rgba(200, 214, 229, 0.8),rgba(245, 245, 245, 0.8),rgba(240, 236, 226, 0.8)
+
+    );
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 30px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu li {
+    position: relative;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #081e36;
+    border-radius: 5px;
+    margin-top: 10px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.navbar-menu li:hover .dropdown {
+    display: block;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.welcome-message {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.welcome-message h1 {
+    color: #333;
+}
+
+.welcome-message p {
+    color: #666;
+}
+
+.services-section {
+    text-align: center;
+}

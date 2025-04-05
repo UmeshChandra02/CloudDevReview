@@ -1,0 +1,65 @@
+.myform-area {
+    overflow: hidden;
+    padding: 60px 0;
+    position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-area {
+    position: relative;
+    background: transparent;
+    width: 700px;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 #0a0a0a;
+}
+
+.form-content {
+    padding: 40px 30px;
+}
+
+.form-content h2 {
+    color: #990707;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    color: #07315B;
+}
+
+.myform-button {
+    margin-top: 30px;
+}
+
+.myform-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    background: rgb(180, 59, 59);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.myform-btn:hover {
+    background: #1770ca;
+}
+
+.signup-text {
+    padding-bottom: 5px;
+    padding-left: 18%;
+}
+
+.signUPtext {
+    color: green;
+    cursor: pointer;
+}
